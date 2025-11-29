@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 753421443948570714}
   - component: {fileID: 2328211387344608288}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1887047015
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1904225746, guid: 99f10abcf979e904b883da0c6922d74f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5844454909392915464}
   - component: {fileID: 622890301425512311}
   - component: {fileID: 4823663054083458279}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy-Scorpion
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -198,8 +198,9 @@ MonoBehaviour:
   speed: 2
   damage: 10
   hitWaitTime: 1
-  health: 5
+  health: 15
   konckBackTime: 0.5
+  expToGive: 4
 --- !u!114 &4823663054083458279
 MonoBehaviour:
   m_ObjectHideFlags: 0

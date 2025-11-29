@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3508151799623250212}
   - component: {fileID: 9211945024463576467}
   - component: {fileID: 1358872561444668875}
-  - component: {fileID: 6576741895333261718}
+  - component: {fileID: -1739491788469866667}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Untagged
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2024826997
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -196789849, guid: 99f10abcf979e904b883da0c6922d74f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -122,7 +122,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
---- !u!114 &6576741895333261718
+--- !u!114 &-1739491788469866667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,13 +131,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458081983583437016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a1543a8c605dec4ab9d28a512098737, type: 3}
+  m_Script: {fileID: 11500000, guid: cc42a69d0455ed54687f26fff9e06894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  amount: 1
+  speed: 180
   damage: 5
-  lifeTime: 4
-  growSpeed: 0.1
+  range: 2
+  timeBetweenAttacks: 5
+  durationTime: 3
+  spawnRadius: 4
+  weaponLevel: 1
+  MaxLevel: 40
   shouldKonckBack: 1
+  icon: {fileID: -196789849, guid: 99f10abcf979e904b883da0c6922d74f, type: 3}
+  carrierObject: {fileID: 0}
+  supportedStats: 00000000010000000200000003000000040000000600000005000000
+  amountUpgradeRate: 1.5
+  speedUpgradeRate: 1.1
+  damageUpgradeRate: 1.3
+  rangeUpgradeRate: 1.2
+  cooldownReduceRate: 0.9
+  durationUpgradeRate: 1.2
+  spawnRadiusUpgradeRate: 1.1
 --- !u!1 &7902553096777061199
 GameObject:
   m_ObjectHideFlags: 0

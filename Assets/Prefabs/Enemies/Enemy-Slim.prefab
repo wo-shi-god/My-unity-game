@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8630100691959060793}
   - component: {fileID: 595068001943134108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1887047015
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1633049766, guid: 99f10abcf979e904b883da0c6922d74f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6202024532479882606}
   - component: {fileID: 4091782946677515033}
   - component: {fileID: 7800599184231202947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy-Slim
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -196,10 +196,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orb: {fileID: 6202024532479882606}
   speed: 1
-  damage: 3
+  damage: 5
   hitWaitTime: 1
-  health: 15
+  health: 30
   konckBackTime: 0.5
+  expToGive: 8
 --- !u!114 &7800599184231202947
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     private float currentHealth;
     public static PlayerHealth Instance;//µ¥ÀýÄ£Ê½
     public Slider healthSlider;
+    public GameObject deathEffect;
     private void Awake()
     {
         Instance = this;
@@ -31,6 +32,9 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth <= 0)
         {
             gameObject.SetActive(false);
+            LevelManager.instance.EndLevel();
+            Instantiate(deathEffect,transform.position,transform.rotation);
+            SFXManager.instance.PlaySFX(3);
         }
         healthSlider.value = currentHealth;
     }

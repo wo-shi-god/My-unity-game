@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6663399871281922452}
   - component: {fileID: 5910051862986721666}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 9196116732573707851}
   - component: {fileID: 5812567174904671941}
   - component: {fileID: 1984850205022640434}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy-Bee
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -200,6 +200,7 @@ MonoBehaviour:
   hitWaitTime: 1
   health: 10
   konckBackTime: 0.5
+  expToGive: 5
 --- !u!114 &1984850205022640434
 MonoBehaviour:
   m_ObjectHideFlags: 0

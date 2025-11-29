@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8602066219689701752}
   - component: {fileID: 1437557103435907707}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1887047015
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1336138882, guid: 99f10abcf979e904b883da0c6922d74f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 7665623174082283472}
   - component: {fileID: 243441843003529490}
   - component: {fileID: 1957361349280474804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy-RedSnake
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -195,11 +195,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orb: {fileID: 7665623174082283472}
-  speed: 2
-  damage: 20
+  speed: 3
+  damage: 5
   hitWaitTime: 1
-  health: 1
+  health: 5
   konckBackTime: 0.5
+  expToGive: 3
 --- !u!114 &1957361349280474804
 MonoBehaviour:
   m_ObjectHideFlags: 0

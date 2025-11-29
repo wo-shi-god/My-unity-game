@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     public float konckBackTime=0.5f;
     private float konckBackCounter;
 
+    public int expToGive;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,8 +57,15 @@ public class EnemyController : MonoBehaviour
         if (health <= 0f)
         {
             Destroy(gameObject);
+            if (ExperienceLevelController.instance.currentLevel< ExperienceLevelController.instance.levelCount)
+                ExperienceLevelController.instance.SpawnExp(transform.position,expToGive);
+            SFXManager.instance.PlaySFXitched(0);
         }
-        DamageNumberController.instance.SpawnDamage(damage,transform.position);
+        else
+        {
+            SFXManager.instance.PlaySFXitched(1);
+        }
+            DamageNumberController.instance.SpawnDamage(damage, transform.position);
     }
     public void TakeDamage(float damage,bool shouldKonckBack)
     {
