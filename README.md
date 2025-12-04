@@ -56,7 +56,7 @@ Assets/
 3.	选择对应 Unity 版本（需与项目版本一致）
 4.	在 Project 窗口中打开Scenes/MainMenu.unity
 5.	点击 Unity 编辑器顶部「运行」按钮（▶️）启动游戏
-2. 打包运行（给非技术同事）
+2. 打包运行
 1.	从 GitHub 仓库下载打包后的 EXE 文件（需手动上传打包产物到 Releases）
 2.	解压压缩包，双击[项目名称].exe
 3.	按提示操作：主菜单点击「Start Game」开始游戏
@@ -77,4 +77,3 @@ v1.0	202X-X-X	初始版本：完成核心玩法、3 种武器、5 种敌人、�
 5.	分支规范：master为主分支（稳定版本），开发新功能请创建feature/功能名称分支
 6.	提交规范：git commit -m "类型：具体修改内容"（例：feat：新增火狼敌人、fix：修复匕首投掷穿透bug）
 7.	代码规范：C# 脚本命名采用 PascalCase（例：PlayerController.cs），变量命名采用 camelCase（例：moveSpeed）
-（注：文档部分内容可能由 AI 生成）
