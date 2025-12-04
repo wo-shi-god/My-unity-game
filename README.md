@@ -57,7 +57,7 @@ Assets/
 4.	在 Project 窗口中打开Scenes/MainMenu.unity
 5.	点击 Unity 编辑器顶部「运行」按钮（▶️）启动游戏
 2. 打包运行
-1.	从 GitHub 仓库下载打包后的 EXE 文件（需手动上传打包产物到 Releases）
+1.	从 GitHub 仓库下载打包后的 EXE 文件
 2.	解压压缩包，双击[项目名称].exe
 3.	按提示操作：主菜单点击「Start Game」开始游戏
 4.	操作说明：
