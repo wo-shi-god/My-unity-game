@@ -66,14 +66,3 @@ Assets/
 3.	升级时点击 UI 按钮选择技能
 🔄 版本更新记录
 
-版本	更新日期	更新内容
-v1.0	202X-X-X	初始版本：完成核心玩法、3 种武器、5 种敌人、主菜单与战斗场景
-📌 注意事项
-1.	项目依赖Assets目录下的.meta文件，拉取后请勿随意删除，否则会导致资源引用丢失
-2.	若运行时出现音效缺失，检查MainMixer.mixer是否正常加载
-3.	大文件（如MainScene.unity）已通过 Git 推送，克隆时若速度较慢，建议安装 Git LFS：git lfs install
-4.	若场景打开报错，检查ProjectSettings/EditorBuildSettings.asset中的场景配置是否完整
-🤝 协作说明
-5.	分支规范：master为主分支（稳定版本），开发新功能请创建feature/功能名称分支
-6.	提交规范：git commit -m "类型：具体修改内容"（例：feat：新增火狼敌人、fix：修复匕首投掷穿透bug）
-7.	代码规范：C# 脚本命名采用 PascalCase（例：PlayerController.cs），变量命名采用 camelCase（例：moveSpeed）
